@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="./script/script.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-Paper-Scissors</title>
+  </head>
+  <body>
+    <div class="header"><h1>Rock-Paper-Scissors</h1></div>
+
+    <div class="container">
+      <div class="winner">
+        <p></p>
+      </div>
+ 
+
+      <div class="gamefield">
+        <div class="player">
+          <p id="you">You</p>
+          <div class="playerchoice"></div>
+        </div>
+
+        <div class="computer">
+            <div class="computerchoice"></div>
+          <p id="computer">Computer</p>
+          
+        </div>
+      </div>
+
+      <div class="containerButtons">
+        <div class="infoButtons">
+          <p id="round">Round: 0</p>
+          <p id="even">Even: </p>
+        </div>
+
+        <div id="buttons" class="buttons">
+          <button class="button-36" id="rock" value="1">Rock</button>
+          <button class="button-36" id="paper" value="2">Paper</button>
+          <button class="button-36" id="scissor" value="3">Scissor</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
